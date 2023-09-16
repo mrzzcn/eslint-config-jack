@@ -6,7 +6,10 @@ module.exports = {
     es6: true,
     jest: true,
   },
-  extends: [ require.resolve('./.eslintrc') ],
+  extends: [
+    require.resolve('./.eslintrc'),
+    "plugin:react/jsx-runtime"
+  ],
   rules: {
     'import/no-unresolved': [
       'error',
