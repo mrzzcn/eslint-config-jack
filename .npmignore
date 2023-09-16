@@ -1,0 +1,7 @@
+demo/
+.gitingore
+.npmignore
+.history
+yarn.lock
+.vscode/
+.eslintrc.bak.js
