@@ -10,6 +10,7 @@ module.exports = {
     require.resolve('./.eslintrc'),
     "plugin:react/jsx-runtime"
   ],
+  plugins: ['react-refresh'],
   rules: {
     'import/no-unresolved': [
       'error',
